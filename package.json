@@ -1,0 +1,15 @@
+{
+  "name": "tableplus-ayu",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "generate": "node generate.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ayu": "^9.1.0"
+  },
+  "private": "true",
+  "type": "module"
+}
