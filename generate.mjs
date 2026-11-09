@@ -86,7 +86,7 @@ function build({ name, base, scheme: s }) {
       EditorBacktickQuotedText: hex(syn.special),
       EditorBracketQuotedText: hex(syn.tag),
       EditorCommentText: hex(syn.comment),
-      EditorCurrentQueryBackground: hex(s.editor.line),
+      EditorCurrentQueryBackground: hex(s.ui.selection.normal),
       EditorDoubleQuotedText: hex(syn.entity),
       EditorErrorBackground: errorBg,
       EditorFunctionText: hex(syn.func),
